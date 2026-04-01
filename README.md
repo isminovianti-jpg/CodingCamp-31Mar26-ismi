@@ -1,2 +1,2 @@
-# Mini-Project-RevoU
-Mini Project RevoU 2026
+# CodingCamp-[31 Maret 2026]-[Ismi Novianti Rahayu]
+CodingCamp-[31 Maret 2026]-[Ismi Novianti Rahayu]
