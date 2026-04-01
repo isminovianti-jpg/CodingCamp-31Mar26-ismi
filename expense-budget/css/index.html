@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense & Budget Visualizer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <!-- awal -->
+    <h1>Expense & Budget Visualizer</h1>
+    <button id="darkModeToggle">Ini Dark Mode</button>
+    <section>
+        <h2>Total</h2>
+        <h3 id="totalbalance">Rp 0</h3>
+    </section>
+
+    <!-- disini saya buat untuk input -->
+    <section>
+        <h2>Tambahkan Transaksi</h2>
+
+        <form id="transaksipendaftaran">
+
+            <label>Nama Item</label>
+            <br/>
+            <input type="text" id="namaitem">
+            <br>
+            <br>
+            <label>Jumlah</label><br>
+            <input type="nomor" id="jumlah">
+            <br>
+            <br>
+            <label>Kategori</label>
+            <br/>
+            <select id="kategori">
+                <option value="">pilih kategori"</option>
+                <option value="Makanan">Makanan</option>
+                <option value="Kendaraan">Kendaraan</option>
+                <option value="Bermain">Bermain</option>
+            </select>
+            <br>
+            <br>
+
+            <button type="kirim">Tambah Transaksi</button>
+
+        </form>
+    </section> 
+
+    <!-- transaksi list -->
+     <section>
+        <h2>Transaksi</h2>
+        <ul id="transaksilist"></ul>
+     </section>
+
+     <section>
+        <h2>Pengeluaran Berdasarkan Kategori</h2>
+        <canvas id="myChart"></canvas>
+     </section>
+
+
+     <script src="js/script.js"></script>
+</body>
+</html>
